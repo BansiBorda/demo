@@ -1,0 +1,63 @@
+.create-post-cta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(45deg, #6a11cb 0%, #2575fc 100%);
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 12px;
+    cursor: pointer;
+    box-shadow: 0 10px 25px rgba(37,117,252,0.3);
+    margin-bottom: 2rem;
+}
+
+.create-post-cta svg {
+    margin-right: 0.5rem;
+}
+
+.advanced-create-post-modal .ant-modal-content {
+    border-radius: 16px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+}
+
+.create-post-modal-title {
+    color: #333;
+    text-align: center;
+}
+
+.image-uploader {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+}
+
+.upload-text {
+    margin-top: 0.5rem;
+}
+
+.advanced-input, 
+.advanced-textarea {
+    border-radius: 8px;
+    border-color: #e0e0e0;
+    transition: all 0.3s ease;
+}
+
+.advanced-input:focus, 
+.advanced-textarea:focus {
+    border-color: #2575fc;
+    box-shadow: 0 0 0 2px rgba(37,117,252,0.2);
+}
+
+.advanced-submit-button {
+    background: linear-gradient(45deg, #6a11cb 0%, #2575fc 100%);
+    border: none;
+    border-radius: 8px;
+    padding: 0.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.advanced-submit-button svg {
+    margin-right: 0.5rem;
+}

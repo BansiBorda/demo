@@ -1,0 +1,57 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fafafa;
+  }
+  
+  .login-wrapper {
+    width: 400px;
+    padding: 20px;
+  }
+  
+  .login-card {
+    background-color: white;
+    border: 1px solid #dbdbdb;
+    padding: 30px 20px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .instagram-logo {
+    font-size: 50px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .login-title {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .login-input {
+    height: 40px;
+    margin-bottom: 10px;
+  }
+  
+  .login-button {
+    height: 40px;
+    background-color: #0095f6;
+    border: none;
+  }
+  
+  .login-button:hover {
+    background-color: #1877f2 !important;
+  }
+  
+  .signup-link {
+    margin-top: 15px;
+    color: #333;
+  }
+  
+  .signup-link a {
+    color: #0095f6;
+    margin-left: 5px;
+  }
